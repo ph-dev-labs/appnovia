@@ -1,0 +1,10 @@
+/* Shop.module.css */
+.imageContainer {
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+    background-image: url('../../../../public/Assets/main-home-rev-5.jpg'); /* Path to your image */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+

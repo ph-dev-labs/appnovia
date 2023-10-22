@@ -1,0 +1,23 @@
+.icon-holder {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center; 
+    text-transform: uppercase;
+}
+
+.icon-text {
+    font-size: 11px;
+    font-family: "Noto Sans";
+    font-weight: 500;
+}

@@ -1,0 +1,27 @@
+.navbar {
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Horizontally center content with space in between */
+    position: absolute;
+    left: 5%; /* Adjust as needed for centering */
+    border-bottom: 1px solid #000; /* Add an underline using a border */
+    padding: 0 10px; /* Add padding for better spacing */
+  }
+  
+
+.toolsIcons {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-between;
+}
+  
+.special-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 12%;
+    align-items: center;
+}
