@@ -1,0 +1,25 @@
+.hero-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-img {
+    border-top: 1.5px solid #c5bdbd;
+    border-right: 1.5px solid #c5bdbd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.category {
+    position: absolute;
+}
+
+.category-text {
+    font-size: 46px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px;
+}
