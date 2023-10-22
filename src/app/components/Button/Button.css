@@ -1,0 +1,18 @@
+button {
+    height: 41px;
+    width: 228.36px; /* Add 'px' unit for width */
+    border: 1px solid #000; /* Specify border style (e.g., 1px solid black) */
+    color: #000; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Change cursor on hover to indicate it's clickable */
+    padding: 10px 20px; /* Add padding for better button size */
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 17px;
+    letter-spacing: 1.2px;
+  }
+  
+  /* Add hover effect */
+  button:hover { 
+    color: #fff; /* Change text color on hover */
+  }

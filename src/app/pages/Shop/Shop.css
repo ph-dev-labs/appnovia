@@ -6,5 +6,16 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-  }
+}
 
+.mixed-textiles {
+  background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay */
+  color: white;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box; /* Include padding within the width and height */
+}

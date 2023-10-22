@@ -12,10 +12,9 @@ export const metadata = {
 
 const RootLayout = ({ children }) => {
   return (
-    <html lang="en">
+    <html lang="en" className={notoSans.className}>
       <head>
         {/* Include font styles */}
-        <style>{notoSans.styles}</style>
         <meta charSet="UTF-8" />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />

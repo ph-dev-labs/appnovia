@@ -20,7 +20,7 @@ const Navbar = () => {
     
         <div className='special-icons'>
             <Image src={Bookmark} alt='icon'/>
-             <p>0</p>
+             <p className='text'>0</p>
         </div>
         <div className='special-icons'>
             <Image src={Profile} alt='icon'/>

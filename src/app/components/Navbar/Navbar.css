@@ -19,9 +19,17 @@
 }
   
 .special-icons {
+    padding-top: 4px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 12%;
     align-items: center;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 11px;
+    font-weight: 600;
+    color: #000;
 }
