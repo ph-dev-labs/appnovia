@@ -4,22 +4,70 @@
     align-items: center;
     justify-content: center; /* Center horizontally */
     margin: 2rem;
-    width: 100vw;
-    overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+    width: 80vw;
   }
   
   .newsholder {
     height: 24rem;
     width: 20rem;
     margin: 1.5rem;
-    border: 1px solid #000; /* Replace 'border-bottom' with 'border' */
+    border-bottom: 1px solid #000; /* Replace 'border-bottom' with 'border' */
     display: flex;
     flex-direction: column;
     align-items: center; /* Center items vertically */
+  }
+
+  .bigger {
+    height: 27rem;
+    width: 20rem;
+    margin: 1.5rem;
+    border-bottom: 1px solid #000; /* Replace 'border-bottom' with 'border' */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(1.5rem);
   }
   
   .blog-img {
     height: 90%;
     max-width: 100%; /* Ensure the image doesn't overflow its container */
+    align-self: flex-start;
   }
-  
+  .news-title {
+    transform: translateY(2.5rem);
+    margin: 1rem;
+  }
+
+  .read-text-2 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #000;
+    font-family: var(--font-noto);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 1.2rem;
+  }
+  .n-title {
+    font-family: var(--font-noto);
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .date-label {
+    position: absolute; 
+    background-color: white;
+    margin: 10px;
+    padding: 0px 5px;
+    font-size: 14px;
+    border: 1px solid #000;
+    z-index: 2; 
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--font-noto);
+    transform: translateX(-5rem);
+    text-transform: uppercase;
+  }

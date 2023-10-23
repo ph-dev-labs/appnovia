@@ -5,7 +5,7 @@ import Button from "@/app/components/Button/Button";
 import Grid from "@/app/components/Grid-holder/Grid";
 import Hero from "@/app/components/Hero/Hero";
 import Brand from "@/app/components/Brand/Brand";
-import Overlay from "../../../../public/Assets/overlay.jpg"
+import Overlay from "../../../../public/Assets/overlay.jpg";
 import Image from "next/image";
 import Blog from "@/app/components/Blog/Blog";
 
@@ -41,10 +41,30 @@ const Shop = () => {
             <h1 className="over-lay-header">ONYX x THE FLOW</h1>
             <p className="read-text">read more</p>
           </div>
-          <Image src={Overlay} width={1200} height={300}/>
+          <Image src={Overlay} width={1200} height={300} />
         </div>
-        <div>
+        <div className="blog-sec">
           <Blog />
+        </div>
+        <div className="newsletter-section">
+          <div className="newsletter-text-holder">
+            <h2 className="newsletter-text">
+              Sing up to our newsletter for all the latest news & discounts.
+            </h2>
+
+            <div className="email">
+              <p className="email-add">E-mail address</p>
+              <div style={{fontSize: "22px"}}>&rarr;</div>
+
+            </div>
+          </div>
+          <Image
+            src="/Assets/section.elementor-section.jpg"
+            className="newsletter-img"
+            alt="newsletter"
+            width={200}
+            height={200}
+          />
         </div>
       </div>
     </main>
