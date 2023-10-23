@@ -4,7 +4,10 @@ import Navbar from "@/app/components/Navbar/Navbar";
 import Button from "@/app/components/Button/Button";
 import Grid from "@/app/components/Grid-holder/Grid";
 import Hero from "@/app/components/Hero/Hero";
-
+import Brand from "@/app/components/Brand/Brand";
+import Overlay from "../../../../public/Assets/overlay.jpg"
+import Image from "next/image";
+import Blog from "@/app/components/Blog/Blog";
 
 const Shop = () => {
   return (
@@ -29,6 +32,19 @@ const Shop = () => {
         <Grid />
         <div className="store-section">
           <Hero />
+        </div>
+        <div className="brand-section">
+          <Brand />
+        </div>
+        <div className="overlay">
+          <div className="text-over-lay">
+            <h1 className="over-lay-header">ONYX x THE FLOW</h1>
+            <p className="read-text">read more</p>
+          </div>
+          <Image src={Overlay} width={1200} height={300}/>
+        </div>
+        <div>
+          <Blog />
         </div>
       </div>
     </main>

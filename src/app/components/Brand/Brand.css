@@ -1,0 +1,14 @@
+.brand-holder {
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-text {
+    width: 50%;
+    text-align: center;
+    font-weight: 500;
+    transform: translateY(1.5rem);
+}

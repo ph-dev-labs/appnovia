@@ -1,0 +1,25 @@
+.newsholders {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    margin: 2rem;
+    width: 100vw;
+    overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+  }
+  
+  .newsholder {
+    height: 24rem;
+    width: 20rem;
+    margin: 1.5rem;
+    border: 1px solid #000; /* Replace 'border-bottom' with 'border' */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .blog-img {
+    height: 90%;
+    max-width: 100%; /* Ensure the image doesn't overflow its container */
+  }
+  

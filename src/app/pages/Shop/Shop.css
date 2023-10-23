@@ -33,7 +33,9 @@
   margin-bottom: 1.5rem;
   font-weight: 400;
 }
-
+.store-section {
+  margin-top: 4rem;
+}
 .store-sec {
   height: 100%;
   background-color: #fff;
@@ -50,4 +52,39 @@
   font-weight: 500;
   line-height: 30px;
   margin-top: 10rem;
+}
+
+.overlay {
+  position: relative;
+  margin: 1rem;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-over-lay {
+  position: absolute;
+
+}
+
+.over-lay-header {
+  font-family: var(--font-noto);
+  font-size: 52px;
+  color: #fff;
+  line-height: 82px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.read-text {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #fff;
+  font-family: var(--font-noto);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 12px;
 }
