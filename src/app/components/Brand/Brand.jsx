@@ -14,7 +14,7 @@ const Brand = () => {
         perspiciatis unde omnis iste natus error sit voluptatem.
       </p>
       <div className="brand-holder">
-        <Image src={Brands} width={700} height={100} alt="vector" />
+       <Image src={Brands} width={700} height={100} alt="vector" className="vectors" />
       </div>
     </div>
   );

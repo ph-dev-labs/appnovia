@@ -1,3 +1,4 @@
+/* Common styles for all screen sizes */
 .artist-container {
   margin: 5.5rem;
   display: flex;
@@ -15,7 +16,7 @@
   font-size: 30px;
   font-weight: 400;
   width: 68%;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   line-height: 42px;
 }
 
@@ -24,10 +25,39 @@
   font-size: 16px;
   font-weight: 500;
   width: 68%;
-  margin-top: .7rem;
-  margin-bottom: .7rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
 }
 
 .artist-text-cont {
-    margin-left: 3rem;
+  margin-left: 3rem;
+}
+
+/* Media Queries */
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .artist-container {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      margin: 2rem; /* Adjust the margin for smaller screens */
+  }
+
+  .artist-title, .a-p {
+      width: 100%; /* Make text full width on smaller screens */
+  }
+
+  .artist-img-container {
+      margin: 1rem; /* Adjust margin for smaller screens */
+  }
+
+  .artist-text-cont {
+      margin-left: 0; /* Reset margin for smaller screens */
+  }
+
+  /* Adjust other styles for smaller screens as needed */
+}
+
+/* For screens larger than 768px (e.g., desktop) */
+@media (min-width: 769px) {
+  /* Add specific styles for larger screens if needed */
 }

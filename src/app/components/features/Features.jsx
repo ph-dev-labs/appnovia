@@ -26,7 +26,7 @@ const Features = () => {
       {icons.map((icon, index) => (
         <div key={index} className="icon-fec">
           <div className="w-f">
-            <img src={icon.src} alt={icon.text} />
+            <img src={icon.src} alt={icon.text} className="features-img"/>
             <p className="text-f-i">{icon.text}</p>
           </div>
         </div>

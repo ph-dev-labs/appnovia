@@ -24,7 +24,7 @@ const Shop = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod.
           </p>
-          <Button text="shop collection" />
+         <Button text="shop collection" />
         </div>
       </div>
       <div className="store-sec">
@@ -45,7 +45,7 @@ const Shop = () => {
             <h1 className="over-lay-header">ONYX x THE FLOW</h1>
             <p className="read-text">read more</p>
           </div>
-          <Image src={Overlay} width={1200} height={300} />
+          <Image src={Overlay} width={1200} height={300} className="overlay-img"/>
         </div>
         <div className="blog-sec">
           <Blog />

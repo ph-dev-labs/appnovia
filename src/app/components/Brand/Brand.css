@@ -1,3 +1,4 @@
+/* Common styles for all screen sizes */
 .brand-holder {
     margin: 4rem;
     display: flex;
@@ -11,4 +12,23 @@
     text-align: center;
     font-weight: 500;
     transform: translateY(1.5rem);
+}
+
+/* Media Queries */
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .brand-text {
+        width: 80%; /* Adjust the width as needed for smaller screens */
+    }
+
+    .vectors {
+        display: none;
+    }
+    /* Adjust other styles for smaller screens as needed */
+}
+
+/* For screens larger than 768px (e.g., desktop) */
+@media (min-width: 769px) {
+    /* Add specific styles for larger screens if needed */
 }

@@ -1,3 +1,4 @@
+/* Common styles for all screen sizes */
 .hero-section {
     display: flex;
     flex-direction: row;
@@ -22,4 +23,25 @@
     text-transform: uppercase;
     text-align: center;
     margin: 30px;
+}
+
+/* Media Queries */
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    .category-text {
+        font-size: 36px; /* Adjust font size for smaller screens */
+        margin: 20px; /* Adjust margin for smaller screens */
+    }
+
+    /* Adjust other styles for smaller screens as needed */
+}
+
+/* For screens larger than 768px (e.g., desktop) */
+@media (min-width: 769px) {
+    /* Add specific styles for larger screens if needed */
 }

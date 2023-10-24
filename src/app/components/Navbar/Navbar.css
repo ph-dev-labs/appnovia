@@ -18,6 +18,9 @@
     justify-content: space-between;
 }
   
+.menu-bar {
+    display: none;
+}
 .special-icons {
     padding-top: 4px;
     display: flex;
@@ -33,4 +36,23 @@
     font-weight: 500;
     color: #000;
     font-family: var(--font-noto);
+}
+
+/* Media query for screens smaller than a certain size (e.g., mobile) */
+@media (max-width: 768px) {
+    .toolsIcons {
+        display: none; /* Hide .toolsIcons on smaller screens */
+    }
+
+    .menu-bar {
+        display: block; /* Display .menu-bar on smaller screens */
+    }
+}
+
+/* Media query for screens larger than a certain size (e.g., laptop) */
+@media (min-width: 769px) {
+    .toolsIcons {
+        display: flex; /* Display .toolsIcons on larger screens */
+    }
+
 }

@@ -1,3 +1,4 @@
+/* Common styles for all screen sizes */
 .footer-logo {
   height: 3rem;
   width: 5rem;
@@ -5,6 +6,10 @@
 
 .footer {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .logo {
@@ -19,6 +24,7 @@
   justify-content: space-evenly;
   align-items: flex-start;
 }
+
 .f-t-t {
   display: flex;
   flex-direction: row;
@@ -27,6 +33,7 @@
   width: 25%;
   align-self: flex-start;
 }
+
 .emailer {
   display: flex;
   flex-direction: row;
@@ -54,4 +61,50 @@
   font-family: var(--font-nunito);
   font-size: 14px;
   font-weight: 600;
+}
+
+/* Media Queries */
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .foot-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+  .emailer {
+    border-bottom: none; /* Remove the bottom border for smaller screens */
+  }
+
+  .f-t-t {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 7rem;
+    width: 35%;
+    transform: translateY(-1rem);
+  }
+
+  .emailer {
+    transform: translateY(0); /* Reset transform for smaller screens */
+  }
+
+  .logo {
+    transform: translateY(-2rem); /* Add space between items on smaller screens */
+    margin: 1rem;
+  }
+}
+
+/* For screens larger than 768px (e.g., desktop) */
+@media (min-width: 769px) {
+  /* Add specific styles for larger screens if needed */
 }
