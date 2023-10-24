@@ -15,7 +15,7 @@ import Footer from "@/app/components/Footer/Footer";
 
 const Shop = () => {
   return (
-    <main>
+    <main style={{maxWidth: "100%"}}>
       <div className="imageContainer">
         <Navbar />
         <div className="mixed-textiles">

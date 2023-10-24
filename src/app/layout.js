@@ -24,7 +24,7 @@ const RootLayout = ({ children }) => {
   const combinedFontClasses = `${notoSans.variable} ${nunito.variable}`;
 
   return (
-    <html lang="en" className={combinedFontClasses}>
+    <html lang="en" className={combinedFontClasses} style={{maxWidth: "100%", margin: 0, padding: 0 }}>
       <head>
         {/* Include font styles */}
         <meta charSet="UTF-8" />

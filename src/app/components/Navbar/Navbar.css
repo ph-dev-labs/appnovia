@@ -52,7 +52,10 @@
 /* Media query for screens larger than a certain size (e.g., laptop) */
 @media (min-width: 769px) {
     .toolsIcons {
-        display: flex; /* Display .toolsIcons on larger screens */
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        justify-content: space-between;
     }
 
 }

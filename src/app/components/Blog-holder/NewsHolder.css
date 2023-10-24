@@ -109,6 +109,32 @@
 }
 
 /* For screens larger than 768px (e.g., desktop) */
-@media (min-width: 769px) {
+@media (max-width: 769px) {
+  .newsholders {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    width: 90vw; /* Adjust the width as needed */
+}
+
+ .bigger {
+    width: 90%; /* Adjust the width as needed for smaller screens */
+    height: 27rem; /* Let the content determine the height */
+    transform: translateY(1rem);
+}
+
+.date-label {
+    transform: translateX(0); /* Reset the position for smaller screens */
+}
+
+.newsholder {
+  height: 24rem;
+  width: 20rem;
+  margin: 1.5rem;
+  border: 1px solid #000; /* Replace 'border-bottom' with 'border' */
+  display: flex;
+  flex-direction: column;
+  margin: 6rem;
+  align-items: center;
+}
+
   /* Add specific styles for larger screens if needed */
 }

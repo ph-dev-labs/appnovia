@@ -1,7 +1,8 @@
 import Shop from "./pages/Shop/Shop"
+import "./globals.css"
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
+    <main style={{maxWidth: "100%"}}>
      <Shop /> 
     </main>
   )

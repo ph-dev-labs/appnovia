@@ -38,20 +38,21 @@
 /* For screens smaller than 768px (e.g., mobile devices) */
 @media (max-width: 768px) {
   .artist-container {
-      flex-direction: column; /* Stack items vertically on smaller screens */
-      margin: 2rem; /* Adjust the margin for smaller screens */
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    margin: 2rem; /* Adjust the margin for smaller screens */
   }
 
-  .artist-title, .a-p {
-      width: 100%; /* Make text full width on smaller screens */
+  .artist-title,
+  .a-p {
+    width: 100%; /* Make text full width on smaller screens */
   }
 
   .artist-img-container {
-      margin: 1rem; /* Adjust margin for smaller screens */
+    margin: 1rem; /* Adjust margin for smaller screens */
   }
 
   .artist-text-cont {
-      margin-left: 0; /* Reset margin for smaller screens */
+    margin-left: 0; /* Reset margin for smaller screens */
   }
 
   /* Adjust other styles for smaller screens as needed */
@@ -60,4 +61,26 @@
 /* For screens larger than 768px (e.g., desktop) */
 @media (min-width: 769px) {
   /* Add specific styles for larger screens if needed */
+  .artist-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    margin: 2rem; /* Adjust the margin for smaller screens */
+  }
+
+  .artist-title,
+  .a-p {
+    width: 60%; /* Make text full width on smaller screens */
+    align-self: center;
+  }
+
+  .artist-img-container {
+    margin: 1rem; /* Adjust margin for smaller screens */
+  }
+
+  .artist-text-cont {
+    margin-left: 0; /* Reset margin for smaller screens */
+  }
+  .artist-text-cont {
+    margin-left: 13rem;
+
+  }
 }
