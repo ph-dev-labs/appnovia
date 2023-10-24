@@ -8,6 +8,10 @@ import Brand from "@/app/components/Brand/Brand";
 import Overlay from "../../../../public/Assets/overlay.jpg";
 import Image from "next/image";
 import Blog from "@/app/components/Blog/Blog";
+import Artist from "@/app/components/Artist/Artist";
+import Slider from "@/app/components/Slider/Slider";
+import Features from "@/app/components/features/Features";
+import Footer from "@/app/components/Footer/Footer";
 
 const Shop = () => {
   return (
@@ -54,8 +58,7 @@ const Shop = () => {
 
             <div className="email">
               <p className="email-add">E-mail address</p>
-              <div style={{fontSize: "22px"}}>&rarr;</div>
-
+              <div style={{ fontSize: "22px" }}>&rarr;</div>
             </div>
           </div>
           <Image
@@ -65,6 +68,22 @@ const Shop = () => {
             width={200}
             height={200}
           />
+        </div>
+        <div className="artist-section">
+          <Artist />
+        </div>
+        <div className="instagram-slide-sec">
+          <div className="instagram">
+            <h3 className="insta">Instagram</h3>
+            <p className="ig-handle">Follow us on @qodeinteractive</p>
+          </div>
+          <Slider />
+        </div>
+        <div className="service-sec">
+          <Features />
+        </div>
+        <div className="footer-sec">
+          <Footer />
         </div>
       </div>
     </main>

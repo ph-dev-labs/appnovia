@@ -1,0 +1,33 @@
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.icon-fec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-right: 1px solid #000;
+  border-top: 1px solid #000;
+  width: 25%;
+  height: 100%;
+}
+
+.w-f {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text-f-i {
+  font-family: var(--font-noto);
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}

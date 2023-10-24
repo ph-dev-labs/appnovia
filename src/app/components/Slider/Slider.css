@@ -1,0 +1,41 @@
+/* Container for the slider */
+.slider-container {
+    width: 100%; /* Set to the desired width */
+    overflow: hidden;
+    position: relative;
+    align-self: center;
+    margin-top: 2rem;
+  }
+  
+  /* Slider wrapper */
+  .slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+   /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+    align-items: center;
+    max-width: 100%; /* Limit the width to the container's width */
+  }
+  
+  /* Individual slide */
+  .slide {
+    flex: 0 0 100%;
+    max-width: 10rem;
+    display: inline-block; /* Display slides in a row */
+    vertical-align: top; /* Align slides at the top */
+    height: 11rem;
+    margin: 1rem;
+  }
+  
+  /* Image styles */
+  .slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Set the initial position of the slider */
+  .slider-wrapper {
+    transform: translateX(0);
+  }
+  
