@@ -29,7 +29,7 @@ const RootLayout = ({ children }) => {
         {/* Include font styles */}
         <meta charSet="UTF-8" />
         <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+        <meta   name="viewport" content="width=device-width, initial-scale=1"/>
         {/* Add other meta tags, CSS links, and scripts here */}
       </head>
       <body className={notoSans.className}>{children}</body>

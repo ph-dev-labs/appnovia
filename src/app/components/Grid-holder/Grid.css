@@ -170,6 +170,9 @@
     }
   }
 
+
+
+
   @media only screen and (max-width: 470px) {
     
     .view-label {
@@ -183,4 +186,19 @@
       z-index: 1000;
     }
   }
+
+  @media only screen and (max-width: 370px) {
+    
+    .view-label {
+      position: absolute;
+      transform: translateX(14.5rem);
+      height: 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      z-index: 1000;
+    }
+  }
+  
   
