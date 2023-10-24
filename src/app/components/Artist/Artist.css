@@ -38,7 +38,7 @@
 /* For screens smaller than 768px (e.g., mobile devices) */
 @media (max-width: 768px) {
   .artist-container {
-    flex-direction: column; /* Stack items vertically on smaller screens */
+    flex-direction: row; /* Stack items vertically on smaller screens */
     margin: 2rem; /* Adjust the margin for smaller screens */
   }
 
@@ -62,7 +62,7 @@
 @media (min-width: 769px) {
   /* Add specific styles for larger screens if needed */
   .artist-container {
-    flex-direction: column; /* Stack items vertically on smaller screens */
+    flex-direction: row; /* Stack items vertically on smaller screens */
     margin: 2rem; /* Adjust the margin for smaller screens */
   }
 
