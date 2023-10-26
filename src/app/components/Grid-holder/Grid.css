@@ -193,7 +193,7 @@
     
     .view-label {
       position: absolute;
-      transform: translateX(13rem);
+      transform: translateX(13.5rem);
       height: 10%;
       display: flex;
       flex-direction: column;
