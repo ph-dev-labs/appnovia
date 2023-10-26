@@ -39,8 +39,17 @@
 @media (max-width: 768px) {
   
   .features-img {
-    width: 2rem;
+    display: none;
   }
+  .text-f-i {
+    font-family: var(--font-noto);
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  
  
 
   /* Adjust other styles for smaller screens as needed */
